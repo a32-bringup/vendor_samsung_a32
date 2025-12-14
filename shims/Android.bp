@@ -1,0 +1,6 @@
+cc_library_shared {
+    name: "mediacodec_shim",
+    srcs: ["mediacodec_shim.cpp"],
+    shared_libs: ["libutils"],
+    vendor: true,
+}
