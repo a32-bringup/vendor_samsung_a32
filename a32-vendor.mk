@@ -1370,7 +1370,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/libvideobeauty.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobeauty.uniplugin@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libvkmanager_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkmanager_vendor.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/libwifi-hal-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-mtk.so \
     vendor/samsung/a32/proprietary/vendor/lib64/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/meta_wifi_data.so \
     vendor/samsung/a32/proprietary/vendor/lib64/mt6768/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libdpframework.so \
     vendor/samsung/a32/proprietary/vendor/lib64/mt6768/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libmtk_drvb.so \
