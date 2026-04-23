@@ -1508,7 +1508,6 @@ PRODUCT_PACKAGES += \
     lights-default-sec.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     sec.android.hardware.nfc@1.2-service.xml \
-    sec_c2_manifest_default0_1_2.xml \
     vendor.samsung.hardware.snap-default.xml \
     vendor.samsung.hardware.thermal@1.0-manifest.xml
 
