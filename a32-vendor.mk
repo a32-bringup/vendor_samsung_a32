@@ -835,7 +835,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib/libspeakercalibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeakercalibration.so \
     vendor/samsung/a32/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/samsung/a32/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
-    vendor/samsung/a32/proprietary/vendor/lib/libstagefright_bufferqueue_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferqueue_helper_vendor.so \
     vendor/samsung/a32/proprietary/vendor/lib/libstagefright_foundation_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_foundation_vendor.so \
     vendor/samsung/a32/proprietary/vendor/lib/libstagefright_omx_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_omx_vendor.so \
     vendor/samsung/a32/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
@@ -1137,6 +1136,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconnfem.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
+    vendor/samsung/a32/proprietary/vendor/lib64/libui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libui.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdeccfg.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdecrypt.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libdre.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdre.so \
