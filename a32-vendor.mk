@@ -6,13 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/a32
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a32/proprietary/system/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
-    vendor/samsung/a32/proprietary/system/etc/init/init.sec-charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.sec-charger.rc \
-    vendor/samsung/a32/proprietary/system/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaptX_encoder.so \
-    vendor/samsung/a32/proprietary/system/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
-    vendor/samsung/a32/proprietary/system/lib64/libmaet.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmaet.so \
-    vendor/samsung/a32/proprietary/system/lib64/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libshowlogo.so \
-    vendor/samsung/a32/proprietary/system/lib64/libsxqk_skia.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsxqk_skia.so \
     vendor/samsung/a32/proprietary/system/media/battery_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_error.spi \
     vendor/samsung/a32/proprietary/system/media/battery_lightning.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_lightning.spi \
     vendor/samsung/a32/proprietary/system/media/battery_lightning_fast.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_lightning_fast.spi \
@@ -33,8 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/system/media/slow_charging_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/slow_charging_usb.spi \
     vendor/samsung/a32/proprietary/system/media/temperature_limit_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/temperature_limit_usb.spi \
     vendor/samsung/a32/proprietary/system/media/water_protection_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/water_protection_usb.spi \
-    vendor/samsung/a32/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkradioex@3.0.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so \
     vendor/samsung/a32/proprietary/vendor/bin/camera_tilt_calibration_info_1_4_default.bin:$(TARGET_COPY_OUT_VENDOR)/bin/camera_tilt_calibration_info_1_4_default.bin \
     vendor/samsung/a32/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
     vendor/samsung/a32/proprietary/vendor/bin/hw/sec.android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/sec.android.hardware.nfc@1.2-service \
